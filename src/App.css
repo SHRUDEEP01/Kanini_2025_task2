@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.outer{
+  background-color: #ece2d0;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.list-item{
+  margin: 3px;
+  border-radius: 20px;
+  padding: 1vw;
+  margin-bottom: 1vh;
+  background-color: #ffd6ba;
+  overflow: auto;
+}
+.saved{
+  border-radius: 20px;
+  border-color: black;
+  border-width: 1px;
+  padding: 1vh;
+  margin: 1vh;
+}
+.saved.contacts{
+  background-color: #bee3db;
+  background-size: cover;
+  height: 90vh;
+  overflow: auto;
+}
+.saved.info{
+  height: 50vh;
+  text-align: center;
+  background-color: #89b0ae;
+  padding: 6px;
+  background-size: cover;
+}
+.saved.create{
+  margin-top: 2vh;
+  height:40vh;
+  background-image: url(createbg.jpeg);
+  color: rgb(45, 86, 40);
+  background-size: cover;
+}
+.App-link {
+  color: #61dafb;
+}
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+li:hover{
+  background-color: rgb(105, 179, 240);
+  transform: translatex(+9px);
+  
+  transition: 0.3s;
+}
+.contact-image{
+  COLOR: WHITE;
+  background-color: #555b6e;
+  text-align: center;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 100px;
+  padding: vh;
+}
+.cimage{
+
+  font-size: 14vh;
+}
+.cdetails{
+  font-size: 3vh;
+  font-family:cursive ;
+  overflow-y: auto;
+}
+.details{
+  color: white;
+  background-color: rgb(31, 84, 31);
+  border-radius: 30px;
+  margin-bottom: 2vh;
+}
+.input{
+  background-color: darkgray;
+  border-radius: 10px;
+  height: 5vh;
+  width: 40vw;
+  margin: 1vh;
+  border-style: none;
+}
+.input.button{
+  background-color: rgb(37, 73, 42);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
