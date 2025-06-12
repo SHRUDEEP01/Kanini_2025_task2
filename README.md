@@ -70,4 +70,9 @@ cd NotesApp
 cd backend
 nodemon index.js
 
+
+
+![image](https://github.com/user-attachments/assets/5346cac0-4171-4898-bc54-b4de454b69eb)
+
+
 ## Both the apps have a similar backend code since both of them are based on CRUD operations, I reused the code written for contacts app, for the NotesApp too.
