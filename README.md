@@ -70,7 +70,11 @@ cd NotesApp
 cd backend
 nodemon index.js
 
+## Notes App UI:
 
+![image](https://github.com/user-attachments/assets/b1aa234e-0fae-4b3b-a842-4e087ea185bd)
+
+## Contacts App UI
 
 ![image](https://github.com/user-attachments/assets/5346cac0-4171-4898-bc54-b4de454b69eb)
 
