@@ -4,7 +4,7 @@ This repository contains two simple full-stack CRUD applications — a **Contact
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React, Bootstrap (optional)
 - **Backend**: Node.js, Express
@@ -13,15 +13,15 @@ This repository contains two simple full-stack CRUD applications — a **Contact
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 📇 Contacts App
+###  Contacts App
 - Add new contacts with name, email, and phone number
 - View a list of all saved contacts
 - Edit existing contact information
 - Delete a contact from the list
 
-### 📝 Notes App
+###  Notes App
 - Add new notes with a title and content
 - View a list of all notes
 - Edit notes
@@ -29,7 +29,7 @@ This repository contains two simple full-stack CRUD applications — a **Contact
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 bash
 /contacts-app
